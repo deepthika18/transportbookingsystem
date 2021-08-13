@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<types:mule xmlns:types="http://www.mulesoft.org/schema/mule/types">
+  <types:catalog>
+    <types:type name="wsdl" format="xml">
+      <types:example format="xml" element="{http://www.example.org/Bookings/}getRoutesResponse" location="examples/wsdl-formatter (1).wsdl"/>
+    </types:type>
+  </types:catalog>
+  <types:enrichment select="#af62055d-841b-44dc-8e0a-2aea0751036e"/>
+</types:mule>
